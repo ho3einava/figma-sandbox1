@@ -26,7 +26,7 @@
    </div>
    
 <div class="girl-img">
-    <img src="@/assets/img/Group.svg" alt="">
+    <img src="@/assets/img/Group.svg" alt="girl-svg">
 </div>
 
 <div class="plan">
