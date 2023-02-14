@@ -23,7 +23,8 @@ a{
     display: grid;
     grid-template-areas: 
     'sidebar content profile';
-    grid-template-columns: 238px auto 238px;
+    grid-template-columns: 300px 600px 300px;
+    grid-gap: 1rem;
 }
 
 .sidebar{
@@ -32,7 +33,7 @@ a{
     background-color: white;
     color:#ccc;
     font-weight: bold;
-    grid-gap: 1rem;
+    
     
     
     
@@ -44,7 +45,7 @@ a{
     background-color: white;
     color:black;
     font-weight: bold;
-    grid-gap: 2rem;
+    
     
     
     
@@ -56,7 +57,7 @@ a{
     background-color: white;
     color:black;
     font-weight: bold;
-    grid-gap: 1rem;
+    
     
     
     
@@ -72,7 +73,7 @@ a{
    width: 24px;
    height: 24px;
    left: 59px;
-   top: 50px;
+   top: 30px;
     padding-top: 6px;
 }
 /* SE.svg      */
@@ -81,7 +82,7 @@ a{
     width: 37px;
     height: 37px;
     left: 94px;
-    top: 50px;
+    top: 30px;
     font-style: normal;
     font-weight: 900;
     font-size: 30px;
@@ -94,7 +95,7 @@ position: absolute;
 width: 10px;
 height: 10px;
 left: 145px;
-top: 58px;
+top: 39px;
 padding-top: 6px;
 }
 /* T.svg */
@@ -103,7 +104,7 @@ padding-top: 6px;
 width: 17px;
 height: 37px;
 left: 163px;
-top: 44px;
+top: 24px;
 font-style: normal;
 font-weight: 900;
 font-size: 30px;
@@ -111,45 +112,118 @@ line-height: 37px;
 letter-spacing: 0.1em;
 padding-top: 6px;
 }
-
+/*girl svg*/
 .girl-img{
     
 position: absolute;
-left: 2.78%;
-right: 86.31%;
-top: 57.32%;
-bottom: 24.08%;
+top: 350px;
+margin-left: 50px;
 }
 /*menu*/
-.menu{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
+.main-menu{
+    width: 100%;
+    height: 40vh;
+    margin-left: 36px;
+    margin-top: 100px;
     
-position: absolute;
-width: 145px;
-height: 281px;
-left: 44px;
-top: 206px;
-
+    
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 40px;
+    
+    
+}
+ li {
+    
+  
+    position: absolute;
+    list-style: none;
+    padding: 8px;
+    left: 25px;
+   
+}
+ ul :hover{
+    color: #369FFF;
+    transition: 0.3s;
+    cursor: pointer;
+}
+ ul #circle:hover{
+    color: #369FFF;
+    transition: 0.3s;
+    cursor: pointer;
+}
+li #circle:hover{
+    color: #369FFF;
+    transition: 0.3s;
+    cursor: pointer;
+}
+i{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    text-align: left;
+}
+span{
+    position: absolute;
+    left: 50px;
+}
+#circle{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 5px;
+    left: 75px;
+    color: white;
+}
+#circle:hover{
+    color: #369FFF;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+/*paln*/
+.plan{
+    position: absolute;
+    width: 168px;
+    height: 108px;
+    background-color: #D8DDFF;
+    top: 580px;
+    left: 50px;
+    border-radius: 18px;
+    
+}
+.plan-text{
+    position: absolute;
+    font-family: "Manrope";
+    color: black;
+    
+    font-size: 12px;
+    top: 20px;
+    left: 35px;
+}
+.plan-text2{
+    position: absolute;
+    font-family: "Manrope";
+    color: #369FFF;
+    font-size: 12px;
+    font-weight: bold;
+    top: 60px;
+    left: 15px;
+}
+.chevrons-right{
+    color: #369FFF;
+    position: absolute;
+    top: 55px;
+    left: 100px;
+    border: 1px solid #369FFF;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    
 }
 
 /* font-awesome */
-.font-awesome{
-position: absolute;
-width: 24px;
-height: 24px;
 
-}
-.awesome{
-
-width: 48px;
-height: 19px;
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-letter-spacing: 2px;
-line-height: 19px;
-color: #BDBDBD;
-}
