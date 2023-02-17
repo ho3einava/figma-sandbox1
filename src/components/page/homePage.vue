@@ -3,7 +3,7 @@
     <div class="sidebar">
         <sidebar/>
     </div>
-    <div class="content">content</div>
+    <div class="content"><contentPage/></div>
     <div class="profile">profile</div>
 </div>
 
@@ -11,10 +11,12 @@
 
 <script>
 import sidebar from '../component/sideBar.vue'
+import contentPage from '../component/contentPage.vue'
 
 export default {
  components:{
-    sidebar
+    sidebar,
+    contentPage
  }
 }
 </script>
