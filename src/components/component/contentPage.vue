@@ -57,8 +57,78 @@
 
     </div>
    </section>
-        
+   <!-- /*section 2*/ -->
+        <section>
+         <div class="col-md-3">
+    <span class="Planning">Planning</span>
+    <span><a href="#" id="view2">View All</a></span>
+    <div class="clac"><i class="fa-solid fa-calendar-days" style="width: 24px;height: 24px; color:#8093A5"></i><span>20 March 2023</span></div>
+         </div>
+        </section>
+ <!-- /*section 3*/ -->
+ <section>
+ 
 
+
+<div class="Rectangle1">
+<div class="Rectangle"><i class="fa-solid fa-book-open" id="book"></i></div>
+<span class="book-text">Reading - Beginner Topic 1</span>
+<span class="book-time">8:00 AM - 10:00 AM</span>
+<span class="vertical"><i class="fa-solid fa-ellipsis-vertical" style="height: 20px; color:#b9b9b9"></i></span>
+   </div>
+
+<div class="Rectangle2">
+<div class="Rectangle-pen"><i class="fa-solid fa-pen-to-square" id="pen"></i></div>
+<span class="book-text">Reading - Beginner Topic 1</span>
+<span class="book-time">01:00 PM - 02:00 PM</span>
+<span class="vertical"><i class="fa-solid fa-ellipsis-vertical" style="height: 20px; color:#b9b9b9"></i></span>
+   </div>
+<div class="Rectangle3">
+<div class="Rectangle-headphone"><i class="fa-solid fa-headphones-simple" id="headphone"></i></div>
+<span class="book-text">Listening - Intermediate Topic 1</span>
+<span class="book-time">03:00 PM - 04:00 PM</span>
+<span class="vertical"><i class="fa-solid fa-ellipsis-vertical" style="height: 20px; color:#b9b9b9"></i></span>
+   </div>
+
+<div class="Rectangle4">
+<div class="Rectangle-volume"><i class="fa-solid fa-volume-low" id="volume"></i></div>
+<span class="book-text">Speaking - Advanced Topic 1</span>
+<span class="book-time">07:00 PM - 08:00 PM</span>
+<span class="vertical"><i class="fa-solid fa-ellipsis-vertical" style="height: 20px; color:#b9b9b9"></i></span>
+   </div>
+
+<div class="Rectangle5">
+<div class="Rectangle-volume"><i class="fa-solid fa-volume-low" id="volume"></i></div>
+<span class="book-text">Speaking - Advanced Topic 1</span>
+<span class="book-time">07:00 PM - 08:00 PM</span>
+<span class="vertical"><i class="fa-solid fa-ellipsis-vertical" style="height: 20px; color:#b9b9b9"></i></span>
+   </div>
+<div class="Rectangle6">
+<div class="Rectangle-headphone"><i class="fa-solid fa-headphones-simple" id="headphone"></i></div>
+<span class="book-text">Listening - Intermediate Topic 1</span>
+<span class="book-time">03:00 PM - 04:00 PM</span>
+<span class="vertical"><i class="fa-solid fa-ellipsis-vertical" style="height: 20px; color:#b9b9b9"></i></span>
+   </div>
+
+<div class="Rectangle7">
+<div class="Rectangle-pen"><i class="fa-solid fa-pen-to-square" id="pen"></i></div>
+<span class="book-text">Reading - Beginner Topic 1</span>
+<span class="book-time">01:00 PM - 02:00 PM</span>
+<span class="vertical"><i class="fa-solid fa-ellipsis-vertical" style="height: 20px; color:#b9b9b9"></i></span>
+   </div>
+
+<div class="Rectangle8">
+<div class="Rectangle"><i class="fa-solid fa-book-open" id="book"></i></div>
+<span class="book-text">Reading - Beginner Topic 1</span>
+<span class="book-time">8:00 AM - 10:00 AM</span>
+<span class="vertical"><i class="fa-solid fa-ellipsis-vertical" style="height: 20px; color:#b9b9b9"></i></span>
+   </div>
+
+
+
+
+   
+ </section>
 
 
 </div>      

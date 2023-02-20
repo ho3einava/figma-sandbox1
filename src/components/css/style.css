@@ -420,3 +420,223 @@ color: #FFFFFF;
     left: 170px;
     top: 26px;
 }
+
+/*   SECTION 2  */
+
+.Planning{
+    position: absolute;
+    width: 170px;
+    height: 41px;
+    left: 28px;
+    top: 450px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 41px;
+    color: #303030;
+}
+#view2{
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    left: 85px;
+    top: 466px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #369FFF;
+    }
+    .clac{
+        position: absolute;
+        color: #369FFF;
+        top: 466px;
+        left:400px;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .clac span{
+        width: 200px;
+        
+    }
+    .clac i{
+        width: 50px ;
+        height: 24px;
+        font-size: 25px;
+    }
+    /*SECTION 3 (Rectangle)*/
+    .Rectangle1{
+        position: absolute;
+         width: 290px;
+        height: 80px;
+        left: 5px;
+        top: 530px;
+       background: #F7F7F7;
+       border-radius: 16px;
+    }
+    .Rectangle{
+        position: absolute;
+width: 60px;
+height: 60px;
+left: 15px;
+top: 9px;
+background: #369FFF;
+opacity: 0.5;
+border-radius: 12px;
+    }
+    #book{
+       
+        width: 35px;
+        height: 35px;
+        padding: 13px 13px;
+        color: #054ACA;
+    }
+    #pen{
+        width: 35px;
+        height: 35px;
+        padding: 13px 13px;
+        color: #FD2E00;
+    }
+    .Rectangle-pen{
+        position: absolute;
+width: 60px;
+height: 60px;
+left: 15px;
+top: 9px;
+background: #FF993A;
+border-radius: 12px;
+opacity: 0.5;
+    }
+    .Rectangle-headphone{
+        position: absolute;
+width: 60px;
+height: 60px;
+left: 15px;
+top: 9px;
+background: #8AC53E;
+border-radius: 12px;
+opacity: 0.5;
+    }
+    #headphone{
+        width: 35px;
+        height: 35px;
+        padding: 13px 13px;
+        color: #00A236
+    }
+    .Rectangle-volume{
+        position: absolute;
+width: 60px;
+height: 60px;
+left: 15px;
+top: 9px;
+background: #FFD143;
+border-radius: 12px;
+opacity: 0.5;
+    }
+    #volume{
+        width: 35px;
+        height: 35px;
+        padding: 13px 13px;
+        color: #A2A406
+    }
+
+    .book-text{
+        position: absolute;
+width: 180px;
+height: 16px;
+left: 90px;
+top: 21px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+color: #303030;
+    }
+    .book-time{
+        position: absolute;
+width: 150px;
+height: 16px;
+left: 99px;
+top: 45px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+color: #BDBDBD;
+    }
+    .vertical{
+        position: absolute;
+width: 4px;
+height: 18px;
+left: 275px;
+top: 28px;
+
+    }
+    .Rectangle2{
+        position: absolute;
+         width: 290px;
+        height: 80px;
+        left: 300px;
+        top: 530px;
+       background: #F7F7F7;
+       border-radius: 16px;
+    }
+    .Rectangle3{
+        position: absolute;
+         width: 290px;
+        height: 80px;
+        left: 5px;
+        top: 625px;
+       background: #F7F7F7;
+       border-radius: 16px;
+    }
+    .Rectangle4{
+        position: absolute;
+         width: 290px;
+        height: 80px;
+        left: 300px;
+        top: 625px;
+       background: #F7F7F7;
+       border-radius: 16px;
+    }
+    .Rectangle5{
+        position: absolute;
+         width: 280px;
+        height: 80px;
+        left: 5px;
+        top: 715px;
+       background: #F7F7F7;
+       border-radius: 16px;
+    }
+    .Rectangle6{
+        position: absolute;
+         width: 290px;
+        height: 80px;
+        left: 300px;
+        top: 715px;
+       background: #F7F7F7;
+       border-radius: 16px;
+    }
+    .Rectangle7{
+        position: absolute;
+         width: 290px;
+        height: 80px;
+        left: 5px;
+        top: 810px;
+       background: #F7F7F7;
+       border-radius: 16px;
+    }
+    .Rectangle8{
+        position: absolute;
+         width: 290px;
+        height: 80px;
+        left: 300px;
+        top: 810px;
+       background: #F7F7F7;
+       border-radius: 16px;
+    }
